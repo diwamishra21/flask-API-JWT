@@ -18,7 +18,7 @@ This project is a simple flask API to authorize users using JWT(JSON Web Tokens)
 - try both APIs in your favourite browser using URLs-
 - Access URLs on brpwser-
   http://localhost:5000/unprotected
-  http://localhost:5000/login (Usrname- admin, Password- secret)
+  http://localhost:5000/login (Username- admin, Password- secret)
   in response you will get a token, Use this token using GET method to access protected Data
   http://localhost:5000/protected?token=<your token>
 
